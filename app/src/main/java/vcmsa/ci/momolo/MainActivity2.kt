@@ -22,6 +22,7 @@ class MainActivity2 : AppCompatActivity() {
     private lateinit var textViewPlaylistSongs: TextView
     private lateinit var ratingSpinner: Spinner
     private lateinit var textViewAverageRating: TextView
+    private lateinit var btnExit:Button
 
     private var currentPlaylist: String? = null
 
@@ -72,6 +73,7 @@ class MainActivity2 : AppCompatActivity() {
         textViewPlaylistSongs = findViewById(R.id.textView3)
         ratingSpinner = findViewById(R.id.spinner)
         textViewAverageRating = findViewById(R.id.textView5)
+        btnExit = findViewById(R.id.button7)
 
         //Set up the spinner adapter
         setupSpinnerRating()
@@ -112,6 +114,9 @@ class MainActivity2 : AppCompatActivity() {
         btnReturn.setOnClickListener() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+        }
+        btnExit.setOnClickListener() {
+            finishAffinity()
 
         }
         btnCalculate.setOnClickListener {
