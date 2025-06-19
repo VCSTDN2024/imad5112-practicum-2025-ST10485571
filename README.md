@@ -12,7 +12,7 @@ Subject: IMAD5112
 
 Links 
 
-GitHub Repository: https://github.com/VCSTDN2024/imad5112-practicum-2025-ST10485571/new/main?filename=README.md 
+GitHub Repository: https://github.com/VCSTDN2024/imad5112-practicum-2025-ST10485571
 
 Project Overview 
 
